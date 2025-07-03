@@ -22,9 +22,12 @@ Frontend: HTML5, CSS3, JavaScript
 
 
 **🙌 Contributing**
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
 **👨‍💻 Author**
+
 Sudhanshu Joshi
+
 Feel free to connect or provide feedback!
 
