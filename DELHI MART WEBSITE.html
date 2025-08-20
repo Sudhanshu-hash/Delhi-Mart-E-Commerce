@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DELHI MART</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Delhi Mart - Best Online Shopping Site in India for Fashion, Electronics, Home Decor, and more.">
+    <meta name="keywords" content="shopping, fashion, electronics, home decor, delhi mart, online store, india">
+    <meta name="author" content="Delhi Mart">
+    <style>
+        .main-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+            background: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1002;
+        }
+
+        .logo-section {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 100px;
+        }
+
+        .logo-img {
+            width: 70px;
+            height: auto;
+        }
+
+        .header-content {
+            flex: 1 1 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            padding: 10px;
+            text-decoration: none;
+            color: inherit;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .image-row img {
+            display: block;
+        }
+
+        ol {
+            font-family: Calibri;
+        }
+
+        .navbar {
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            position: relative;
+            margin-right: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #222;
+        }
+
+        .navbar li:hover .mega-menu,
+        .navbar li:focus-within .mega-menu,
+        .mega-menu:hover {
+            display: flex;
+        }
+
+        .mega-menu {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            background: #fff;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            padding: 30px 40px;
+            z-index: 100;
+            width: 1100px;
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .mega-column {
+            min-width: 180px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mega-column h4 {
+            color: #b640e9;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .mega-column h4[style*="color:#f58220;"] {
+            color: #b640e9 !important;
+        }
+
+        .mega-column ul {
+            margin-bottom: 20px;
+            padding-left: 18px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mega-column li {
+            font-weight: normal;
+            color: #222;
+            margin-bottom: 7px;
+            cursor: pointer;
+            order: initial;
+        }
+
+        .mega-column li:last-child {
+            margin-bottom: 0;
+        }
+
+        .navbar>ul>li:hover {
+            color: #b640e9;
+        }
+
+        .navbar li.active .mega-menu {
+            display: flex !important;
+        }
+
+        @media (max-width: 900px) {
+
+            .main-header-row,
+            .navbar,
+            .header-content {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+            }
+
+            .search-form input[type="text"] {
+                width: 200px;
+            }
+
+            .mega-menu {
+                width: 95vw;
+                padding: 10px 5px;
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .main-header-row,
+            .navbar,
+            .header-content {
+                flex-direction: column !important;
+                align-items: stretch !important;
+            }
+
+            .logo-section {
+                padding: 0 10px;
+            }
+
+            .search-form input[type="text"] {
+                width: 100px;
+            }
+
+            .mega-menu {
+                width: 100vw;
+                font-size: 0.9em;
+            }
+
+            .image-row {
+                flex-direction: column;
+            }
+
+            .image-row img {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-header-row">
+        <div class="logo-section">
+            <a href="A1 DELHI MART WEBSITE.html">
+                <img src="website sticker .png" alt="DELHI MART" class="logo-img"></a>
+        </div>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--header and content -->
+        <div class="header-content" style="flex-direction: row; align-items: center; justify-content: space-between;">
+            <nav class="navbar" style="flex: 1;">
+                <ul style="margin: 0;">
+                    <li>
+                        MEN
+                        <div class="mega-menu">
+                            <div class="mega-column">
+                                <h4>Topwear</h4>
+                                <ul>
+                                    <li>T-Shirts</li>
+                                    <li>Casual Shirts</li>
+                                    <li>Formal Shirts</li>
+                                    <li>Sweatshirts</li>
+                                    <li>Sweaters</li>
+                                    <li>Jackets</li>
+                                    <li>Blazers & Coats</li>
+                                    <li>Suits</li>
+                                    <li>Rain Jackets</li>
+                                </ul>
+                                <h4>Indian & Festive Wear</h4>
+                                <ul>
+                                    <li>Kurtas & Kurta Sets</li>
+                                    <li>Sherwanis</li>
+                                    <li>Nehru Jackets</li>
+                                    <li>Dhotis</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Bottomwear</h4>
+                                <ul>
+                                    <li>Jeans</li>
+                                    <li>Casual Trousers</li>
+                                    <li>Formal Trousers</li>
+                                    <li>Shorts</li>
+                                    <li>Track Pants & Joggers</li>
+                                </ul>
+                                <h4>Innerwear & Sleepwear</h4>
+                                <ul>
+                                    <li>Briefs & Trunks</li>
+                                    <li>Boxers</li>
+                                    <li>Vests</li>
+                                    <li>Sleepwear & Loungewear</li>
+                                    <li>Thermals</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Footwear</h4>
+                                <ul>
+                                    <li>Casual Shoes</li>
+                                    <li>Sports Shoes</li>
+                                    <li>Formal Shoes</li>
+                                    <li>Sneakers</li>
+                                    <li>Sandals & Floaters</li>
+                                    <li>Flip Flops</li>
+                                    <li>Socks</li>
+                                </ul>
+                                <h4>Sports & Active Wear</h4>
+                                <ul>
+                                    <li>Sports Shoes</li>
+                                    <li>Sports Sandals</li>
+                                    <li>Active T-Shirts</li>
+                                    <li>Track Pants & Shorts</li>
+                                    <li>Tracksuits</li>
+                                    <li>Jackets & Sweatshirts</li>
+                                    <li>Sports Accessories</li>
+                                    <li>Swimwear</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Gadgets</h4>
+                                <ul>
+                                    <li>Smart Wearables</li>
+                                    <li>Fitness Gadgets</li>
+                                    <li>Headphones</li>
+                                    <li>Speakers</li>
+                                </ul>
+                                <h4>Fashion Accessories</h4>
+                                <ul>
+                                    <li>Watches</li>
+                                    <li>Wallets</li>
+                                    <li>Belts</li>
+                                    <li>Perfumes & Body Mists</li>
+                                    <li>Trimmers</li>
+                                    <li>Deodorants</li>
+                                    <li>Ties, Cufflinks & Pocket Squares</li>
+                                    <li>Accessory Gift Sets</li>
+                                    <li>Caps & Hats</li>
+                                    <li>Mufflers, Scarves & Gloves</li>
+                                    <li>Phone Cases</li>
+                                    <li>Rings & Wristwear</li>
+                                    <li>Helmets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        WOMEN
+                        <div class="mega-menu">
+                            <div class="mega-column">
+                                <h4>Indian & Fusion Wear</h4>
+                                <ul>
+                                    <li>Kurtas & Suits</li>
+                                    <li>Kurtis, Tunics & Tops</li>
+                                    <li>Sarees</li>
+                                    <li>Ethnic Wear</li>
+                                    <li>Leggings, Salwars & Churidars</li>
+                                    <li>Skirts & Palazzos</li>
+                                    <li>Dress Materials</li>
+                                    <li>Lehenga Cholis</li>
+                                    <li>Dupattas & Shawls</li>
+                                    <li>Jackets</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Western Wear</h4>
+                                <ul>
+                                    <li>Dresses</li>
+                                    <li>Tops</li>
+                                    <li>Tshirts</li>
+                                    <li>Jeans</li>
+                                    <li>Trousers & Capris</li>
+                                    <li>Shorts & Skirts</li>
+                                    <li>Co-ords</li>
+                                    <li>Playsuits</li>
+                                    <li>Jumpsuits</li>
+                                    <li>Shrugs</li>
+                                    <li>Sweaters & Sweatshirts</li>
+                                    <li>Jackets & Coats</li>
+                                    <li>Blazers & Waistcoats</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Footwear</h4>
+                                <ul>
+                                    <li>Flats</li>
+                                    <li>Casual Shoes</li>
+                                    <li>Heels</li>
+                                    <li>Boots</li>
+                                    <li>Sports Shoes & Floaters</li>
+                                </ul>
+                                <h4>Sports & Active Wear</h4>
+                                <ul>
+                                    <li>Clothing</li>
+                                    <li>Footwear</li>
+                                    <li>Sports Accessories</li>
+                                    <li>Sports Equipment</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Lingerie & Sleepwear</h4>
+                                <ul>
+                                    <li>Bra</li>
+                                    <li>Briefs</li>
+                                    <li>Shapewear</li>
+                                    <li>Sleepwear & Loungewear</li>
+                                    <li>Swimwear</li>
+                                    <li>Camisoles & Thermals</li>
+                                </ul>
+                                <h4>Beauty & Personal Care</h4>
+                                <ul>
+                                    <li>Makeup</li>
+                                    <li>Skincare</li>
+                                    <li>Premium Beauty</li>
+                                    <li>Lipsticks</li>
+                                    <li>Fragrances</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4>Gadgets</h4>
+                                <ul>
+                                    <li>Smart Wearables</li>
+                                    <li>Fitness Gadgets</li>
+                                    <li>Headphones</li>
+                                    <li>Speakers</li>
+                                </ul>
+                                <h4>Jewellery</h4>
+                                <ul>
+                                    <li>Fashion Jewellery</li>
+                                    <li>Fine Jewellery</li>
+                                    <li>Earrings</li>
+                                    <li>Necklaces</li>
+                                    <li>Rings</li>
+                                    <li>Bracelets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        KIDS
+                        <div class="mega-menu">
+                            <div class="mega-column">
+                                <h4 style="color:#20f587;">Boys Clothing</h4>
+                                <ul>
+                                    <li>T-Shirts</li>
+                                    <li>Shirts</li>
+                                    <li>Shorts</li>
+                                    <li>Jeans</li>
+                                    <li>Trousers</li>
+                                    <li>Clothing Sets</li>
+                                    <li>Ethnic Wear</li>
+                                    <li>Track Pants & Pyjamas</li>
+                                    <li>Jacket, Sweater & Sweatshirts</li>
+                                    <li>Party Wear</li>
+                                    <li>Innerwear & Thermals</li>
+                                    <li>Nightwear & Loungewear</li>
+                                    <li>Value Packs</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4 style="color:#20f587;">Girls Clothing</h4>
+                                <ul>
+                                    <li>Dresses</li>
+                                    <li>Tops</li>
+                                    <li>Tshirts</li>
+                                    <li>Clothing Sets</li>
+                                    <li>Lehenga choli</li>
+                                    <li>Kurta Sets</li>
+                                    <li>Party wear</li>
+                                    <li>Dungarees & Jumpsuits</li>
+                                    <li>Skirts & shorts</li>
+                                    <li>Tights & Leggings</li>
+                                    <li>Jeans, Trousers & Capris</li>
+                                    <li>Jacket, Sweater & Sweatshirts</li>
+                                    <li>Innerwear & Thermals</li>
+                                    <li>Nightwear & Loungewear</li>
+                                    <li>Value Packs</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4 style="color:#20f587;">Footwear</h4>
+                                <ul>
+                                    <li>Casual Shoes</li>
+                                    <li>Flipflops</li>
+                                    <li>Sports Shoes</li>
+                                    <li>Flats</li>
+                                    <li>Sandals</li>
+                                    <li>Heels</li>
+                                    <li>School Shoes</li>
+                                    <li>Socks</li>
+                                </ul>
+                                <h4 style="color:#20f587;">Toys & Games</h4>
+                                <ul>
+                                    <li>Learning & Development</li>
+                                    <li>Activity Toys</li>
+                                    <li>Soft Toys</li>
+                                    <li>Action Figure / Play set</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4 style="color:#20f587;">Infants</h4>
+                                <ul>
+                                    <li>Bodysuits</li>
+                                    <li>Rompers & Sleepsuits</li>
+                                    <li>Clothing Sets</li>
+                                    <li>Tshirts & Tops</li>
+                                    <li>Dresses</li>
+                                    <li>Bottom wear</li>
+                                    <li>Winter Wear</li>
+                                    <li>Innerwear & Sleepwear</li>
+                                    <li>Infant Care</li>
+                                </ul>
+                            </div>
+                            <div class="mega-column">
+                                <h4 style="color:#20f587;">Kids Accessories</h4>
+                                <ul>
+                                    <li>Bags & Backpacks</li>
+                                    <li>Watches</li>
+                                    <li>Jewellery & Hair accessory</li>
+                                    <li>Sunglasses</li>
+                                    <li>Masks & Protective Gears</li>
+                                    <li>Caps & Hats</li>
+                                </ul>
+                                <h4 style="color:#20f587;">Brands</h4>
+                                <ul>
+                                    <li>H&M</li>
+                                    <li>Max Kids</li>
+                                    <li>Pantaloons</li>
+                                    <li>United Colors Of Benetton Kids</li>
+                                    <li>YK</li>
+                                    <li>U.S. Polo Assn. Kids</li>
+                                    <li>Mothercare</li>
+                                    <li>HRX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <script>
+                // header logic 
+                document.querySelectorAll('.navbar > ul > li').forEach(function (menuItem) {
+                    menuItem.addEventListener('mouseenter', function () {
+                        document.querySelectorAll('.navbar > ul > li').forEach(function (li) {
+                            li.classList.remove('active');
+                        });
+                        menuItem.classList.add('active');
+                    });
+                    menuItem.addEventListener('mouseleave', function (e) {
+                        var megaMenu = menuItem.querySelector('.mega-menu');
+                        if (megaMenu) {
+                            megaMenu.addEventListener('mouseleave', function handler(ev) {
+                                menuItem.classList.remove('active');
+                                megaMenu.removeEventListener('mouseleave', handler);
+                            });
+                        }
+                        setTimeout(function () {
+                            if (!menuItem.matches(':hover') && (!megaMenu || !megaMenu.matches(':hover'))) {
+                                menuItem.classList.remove('active');
+                            }
+                        }, 50);
+                    });
+                });
+                document.addEventListener('click', function (e) {
+                    var nav = document.querySelector('.navbar');
+                    if (!nav.contains(e.target)) {
+                        document.querySelectorAll('.navbar > ul > li').forEach(function (li) {
+                            li.classList.remove('active');
+                        });
+                    }
+                });
+            </script>
+
+            <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+            <!--search box-->
+            <style>
+    .search-form {
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        position: relative;
+    }
+
+    .search-form input[type="text"] {
+        padding: 6px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        font-size: 1em;
+        outline: none;
+        width: 400px;
+        transition: border 0.2s, box-shadow 0.2s;
+    }
+
+    .search-form input[type="text"]:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    }
+
+    .search-form button {
+        padding: 6px 12px;
+        border: 1px solid #007bff;
+        border-left: none;
+        border-radius: 0 4px 4px 0;
+        background: #007bff;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background 0.2s;
+    }
+
+    .search-form button:hover {
+        background: #0056b3;
+    }
+
+    /* Suggestion box */
+    .suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 400px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        max-height: 200px;
+        overflow-y: auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        display: none;
+        z-index: 100;
+    }
+
+    .suggestions div {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+    .suggestions div:hover {
+        background: #f1f1f1;
+    }
+</style>
+
+<form class="search-form" id="searchForm" action="" method="get" style="margin: 0 20px;">
+    <input type="text" id="searchInput" placeholder="Search" autocomplete="off"/>
+    <button type="submit">Search</button>
+    <div class="suggestions" id="suggestionsBox"></div>
+</form>
+
+<script>
+    const items = ["FASHION", "BEAUTY", "FOOTWEAR", "ACCESSORIES", "JEWELLERY", "SPORTS", "ELECTRONICS", "HOME DECOR", "KITCHEN", "TOYS", "BOOKS"];
+    const searchInput = document.getElementById('searchInput');
+    const suggestionsBox = document.getElementById('suggestionsBox');
+    const form = document.getElementById('searchForm');
+
+    let itemIndex = 0, charIndex = 0, typing = true;
+
+    // Animated placeholder (typewriter effect)
+    function animatePlaceholder() {
+        if (typing) {
+            if (charIndex <= items[itemIndex].length) {
+                searchInput.setAttribute("placeholder", "Search " + items[itemIndex].slice(0, charIndex));
+                charIndex++;
+                setTimeout(animatePlaceholder, 100);
+            } else {
+                typing = false;
+                setTimeout(animatePlaceholder, 1000);
+            }
+        } else {
+            if (charIndex > 0) {
+                searchInput.setAttribute("placeholder", "Search " + items[itemIndex].slice(0, charIndex - 1));
+                charIndex--;
+                setTimeout(animatePlaceholder, 50);
+            } else {
+                typing = true;
+                itemIndex = (itemIndex + 1) % items.length;
+                setTimeout(animatePlaceholder, 400);
+            }
+        }
+    }
+    animatePlaceholder();
+
+    // Suggestion dropdown logic
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase();
+        suggestionsBox.innerHTML = "";
+
+        if (query) {
+            const filtered = items.filter(item => item.toLowerCase().includes(query));
+            if (filtered.length > 0) {
+                filtered.forEach(item => {
+                    const div = document.createElement("div");
+                    div.textContent = item;
+                    div.onclick = () => {
+                        searchInput.value = item;
+                        suggestionsBox.style.display = "none";
+                    };
+                    suggestionsBox.appendChild(div);
+                });
+                suggestionsBox.style.display = "block";
+            } else {
+                suggestionsBox.style.display = "none";
+            }
+        } else {
+            suggestionsBox.style.display = "none";
+        }
+    });
+
+    // Close suggestions when clicking outside
+    document.addEventListener("click", (e) => {
+        if (!form.contains(e.target)) {
+            suggestionsBox.style.display = "none";
+        }
+    });
+
+    // Prevent form submit refresh
+    form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        alert("Searching for: " + searchInput.value);
+    });
+</script>
+
+
+            <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+            <!--profile logo-->
+            <style>
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    /* auto align right */
+                    background-color: #fff;
+                    min-width: 200px;
+                    border-radius: 8px;
+                    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+                    z-index: 20;
+                    font-family: Calibri, sans-serif;
+                    overflow: hidden;
+                    transform-origin: top right;
+                    transition: opacity 0.2s ease, transform 0.2s ease;
+                    opacity: 0;
+                    transform: scale(0.95);
+                }
+
+                .dropdown-content.show {
+                    display: block;
+                    opacity: 1;
+                    transform: scale(1);
+                }
+
+                .dropdown-header {
+                    padding: 12px;
+                    background: #f5f5f5;
+                    border-bottom: 1px solid #ddd;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .dropdown-header img {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .dropdown-header .user-info {
+                    font-size: 0.9em;
+                }
+
+                .dropdown-content a {
+                    color: #333;
+                    padding: 10px 14px;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    transition: background 0.2s;
+                }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+                .dropbtn {
+                    font-size: 1.6em;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    padding: 8px;
+                }
+            </style>
+
+            <div class="nav-actions" style="margin-left: 10px; display: flex; align-items: center; gap: 16px;">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown(event)" aria-label="Profile" aria-haspopup="true"
+                        aria-expanded="false">
+                        <span>&#128100;</span>
+                    </button>
+                    <div class="dropdown-content" id="profileDropdown" role="menu">
+                        <div class="dropdown-header">
+                            <img src="lightning.jpg" alt="User Avatar">
+                            <div class="user-info">
+                                <strong>Sudhanshu</strong><br>
+                                <small>sudhanshujoshi@gmail.com</small>
+                            </div>
+                        </div>
+                        <a href="#"><span>📦</span> Your Orders</a>
+                        <a href="#"><span>🏷️</span> Coupons</a>
+                        <a href="#"><span>❓</span> Help</a>
+                        <a href="#"><span>⚙️</span> Settings</a>
+                        <a href="#"><span>🚪</span> Sign Out</a>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                const dropdownBtn = document.querySelector('.dropbtn');
+                const dropdownMenu = document.getElementById('profileDropdown');
+
+                function toggleDropdown(event) {
+                    event.stopPropagation();
+                    dropdownMenu.classList.toggle('show');
+                    dropdownBtn.setAttribute("aria-expanded", dropdownMenu.classList.contains("show"));
+                }
+
+                // Close dropdown when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (dropdownMenu.classList.contains('show') &&
+                        !dropdownMenu.contains(e.target) &&
+                        !dropdownBtn.contains(e.target)) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownBtn.setAttribute("aria-expanded", "false");
+                    }
+                });
+
+                // Keyboard accessibility
+                document.addEventListener('keydown', function (e) {
+                    if (dropdownMenu.classList.contains('show')) {
+                        if (e.key === "Escape") {
+                            dropdownMenu.classList.remove('show');
+                            dropdownBtn.setAttribute("aria-expanded", "false");
+                        }
+                    }
+                });
+            </script>
+
+
+            <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+            <!--shopping cart and payment-->
+
+            <style>
+                .add-cart-btn {
+                    background: #007bff;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 6px 16px;
+                    cursor: pointer;
+                    margin-top: 8px;
+                    transition: background 0.2s;
+                }
+
+                .add-cart-btn:hover {
+                    background: #0056b3;
+                }
+
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    background-color: #f5f5f5;
+                }
+
+                .cart-icon {
+                    position: relative;
+                    right: 5px;
+                    color: #0f0f0f;
+                    padding: 10px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    font-size: 1em;
+                    z-index: 1000;
+                }
+
+                .cart-count {
+                    background: red;
+                    color: white;
+                    border-radius: 50%;
+                    padding: 2px 5px;
+                    font-size: 0.6em;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+
+                .cart-dropdown {
+                    display: none;
+                    position: absolute;
+                    top: 60px;
+                    right: 0;
+                    background-color: white;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                    width: 300px;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    z-index: 2000;
+
+                    max-height: 250px;
+
+                    overflow-y: auto;
+                }
+
+                /* Optional: Style the scrollbar for a cleaner look */
+                .cart-dropdown::-webkit-scrollbar {
+                    width: 6px;
+                }
+
+                .cart-dropdown::-webkit-scrollbar-thumb {
+                    background: #ccc;
+                    border-radius: 3px;
+                }
+
+                .cart-dropdown::-webkit-scrollbar-thumb:hover {
+                    background: #999;
+                }
+
+                .cart-dropdown.active {
+                    display: block;
+                }
+
+                .cart-item {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    border-bottom: 1px solid #eee;
+                }
+
+                .cart-item img {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    margin-right: 10px;
+                }
+
+                .cart-item-title {
+                    flex: 1;
+                }
+
+                .cart-item-remove {
+                    background: none;
+                    border: none;
+                    color: black;
+                    font-size: 1.2em;
+                    cursor: pointer;
+                }
+
+                .cart-total {
+                    padding: 10px;
+                    font-weight: bold;
+                    background-color: #f0f0f0;
+                }
+
+                .modal {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 3000;
+                }
+
+                .modal.active {
+                    display: flex;
+                }
+
+                .modal-content {
+                    background: #fff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    max-width: 500px;
+                    width: 100%;
+                    position: relative;
+                }
+
+                .modal-close {
+                    background: transparent;
+                    border: none;
+                    font-size: 1.5em;
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    cursor: pointer;
+                }
+
+                .primary {
+                    background: #28a745;
+                    color: white;
+                    border: none;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+
+                .primary:hover {
+                    background: #218838;
+                }
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 10px;
+                }
+
+                table,
+                th,
+                td {
+                    border: 1px solid #ddd;
+                }
+
+                th,
+                td {
+                    padding: 8px;
+                    text-align: center;
+                }
+
+                tfoot tr td {
+                    font-weight: bold;
+                }
+
+                #discountRow,
+                #finalTotalRow {
+                    display: none;
+                }
+            </style>
+            </head>
+
+            <body>
+
+                <span class="cart-icon" id="cartIcon" tabindex="0" onclick="toggleCartDropdown()">
+                    🛒 <span class="cart-count" id="cartCount">0</span>
+                </span>
+
+                <div class="cart-dropdown" id="cartDropdown">
+                    <div id="cartItems"></div>
+                    <div class="cart-total" id="cartTotal">Total: ₹0</div>
+                    <button class="primary" onclick="showCartPayment()">Continue</button>
+                </div>
+
+                <div class="modal" id="cartPaymentEmbed">
+                    <div class="modal-content">
+                        <button class="modal-close" onclick="closeCartPayment()">&times;</button>
+                        <form id="paymentSelectForm" onsubmit="submitPayment(event)">
+                            <h3>Order Summary</h3>
+                            <div id="paymentTableContainer"></div>
+
+                            <label for="promoCode">Promo Code:</label>
+                            <input type="text" id="promoCode" name="promoCode">
+                            <button type="button" onclick="applyPromo()" class="primary">Apply</button>
+
+                            <div id="paymentOptions">
+                                <label for="payMethod"><strong>Select Payment Method:</strong></label>
+                                <select id="payMethod" name="payMethod" onchange="handlePaymentFields()"
+                                    style="width: 100%; padding: 6px; margin-top: 6px;">
+                                    <option value="COD">Cash on Delivery</option>
+                                    <option value="UPI">UPI</option>
+                                    <option value="Card">Credit/Debit Card</option>
+                                </select>
+                                <div id="extraFields" style="margin-top: 10px;"></div>
+                            </div>
+
+                            <button type="submit" id="payNowBtn" class="primary" disabled>Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+
+                <script>
+                    let cart = [], selectedIndexes = [], appliedDiscount = 0;
+
+                    function addToCart(btn) {
+                        const card = btn.closest('.product-card');
+                        const title = card.querySelector('.product-title').innerText;
+                        const price = parseInt(card.querySelector('.product-price').innerText.replace(/[^0-9]/g, ''));
+                        const img = card.querySelector('img').src;
+                        let found = cart.find(item => item.title === title);
+                        if (found) found.qty++;
+                        else cart.push({ title, price, img, qty: 1 });
+                        updateCart();
+                    }
+
+                    function updateCart() {
+                        const count = cart.reduce((a, b) => a + b.qty, 0);
+                        document.getElementById('cartCount').innerText = count;
+                        let html = '', total = 0;
+                        cart.forEach((item, i) => {
+                            html += `<div class='cart-item'>
+        <input type='checkbox' onchange='toggleSelect(${i})' ${selectedIndexes.includes(i) ? 'checked' : ''}>
+        <img src='${item.img}' alt='${item.title}'>
+        <span class='cart-item-title'>${item.title} x${item.qty}</span>
+        <button class='cart-item-remove' onclick='removeCartItem(${i})'>&times;</button>
+      </div>`;
+                            if (selectedIndexes.includes(i)) total += item.price * item.qty;
+                        });
+                        document.getElementById('cartItems').innerHTML = html || '<div style="text-align:center; padding: 10px;">Cart is empty</div>';
+                        document.getElementById('cartTotal').innerText = 'Total: ₹' + total;
+                    }
+
+                    function toggleSelect(i) {
+                        selectedIndexes.includes(i) ? selectedIndexes = selectedIndexes.filter(x => x !== i) : selectedIndexes.push(i);
+                        updateCart();
+                    }
+
+                    function removeCartItem(i) {
+                        cart.splice(i, 1);
+                        selectedIndexes = selectedIndexes.filter(x => x !== i);
+                        updateCart();
+                    }
+
+                    function toggleCartDropdown() {
+                        document.getElementById('cartDropdown').classList.toggle('active');
+                    }
+
+                    document.addEventListener('click', function (e) {
+                        if (!document.getElementById('cartIcon').contains(e.target) &&
+                            !document.getElementById('cartDropdown').contains(e.target)) {
+                            document.getElementById('cartDropdown').classList.remove('active');
+                        }
+                    });
+
+                    function showCartPayment() {
+                        const embed = document.getElementById('cartPaymentEmbed');
+                        const form = document.getElementById('paymentSelectForm');
+                        const tableContainer = document.getElementById('paymentTableContainer');
+                        appliedDiscount = 0;
+                        let tableHTML = `<table id="paymentTable">
+      <thead><tr><th>S.No.</th><th>Item</th><th>Price</th><th>Quantity</th><th>Total</th></tr></thead><tbody>`;
+                        let grandTotal = 0;
+                        selectedIndexes.forEach((index, i) => {
+                            let item = cart[index], total = item.price * item.qty;
+                            grandTotal += total;
+                            tableHTML += `<tr><td>${i + 1}</td><td>${item.title}</td><td>₹${item.price}</td><td>${item.qty}</td><td>₹${total}</td></tr>`;
+                        });
+                        tableHTML += `</tbody>
+      <tfoot>
+        <tr><td colspan="4" style="text-align:right;">Grand Total</td><td id="grandTotal">₹${grandTotal}</td></tr>
+        <tr id="discountRow"><td colspan="4" style="text-align:right;">Discount</td><td id="discountAmount">₹0</td></tr>
+        <tr id="finalTotalRow"><td colspan="4" style="text-align:right;">Final Total</td><td id="finalTotal">₹${grandTotal}</td></tr>
+      </tfoot>
+    </table>`;
+                        tableContainer.innerHTML = tableHTML;
+                        document.getElementById('discountRow').style.display = 'none';
+                        document.getElementById('finalTotalRow').style.display = 'none';
+                        form.style.display = 'block';
+                        embed.classList.add('active');
+                        handlePaymentFields();
+                    }
+
+                    function closeCartPayment() {
+                        document.getElementById('cartPaymentEmbed').classList.remove('active');
+                        const summaryElem = document.getElementById('paymentSummary');
+                        if (summaryElem) summaryElem.remove();
+                    }
+
+                    function applyPromo() {
+                        const code = document.getElementById('promoCode').value.trim();
+                        let grandTotal = selectedIndexes.reduce((sum, i) => sum + (cart[i].price * cart[i].qty), 0);
+                        if (code.toLowerCase() === 'delhi50') {
+                            appliedDiscount = Math.floor(grandTotal * 0.5);
+                            alert('Promo code applied! 50% discount.');
+                        } else {
+                            appliedDiscount = 0;
+                            alert('Invalid promo code.');
+                        }
+                        let finalTotal = grandTotal - appliedDiscount;
+                        document.getElementById('discountRow').style.display = 'table-row';
+                        document.getElementById('discountAmount').innerText = '₹' + appliedDiscount;
+                        document.getElementById('finalTotalRow').style.display = 'table-row';
+                        document.getElementById('finalTotal').innerText = '₹' + finalTotal;
+                    }
+
+                    function handlePaymentFields() {
+                        const method = document.getElementById('payMethod').value;
+                        const extraFields = document.getElementById('extraFields');
+                        const payBtn = document.getElementById('payNowBtn');
+                        extraFields.innerHTML = '';
+                        payBtn.disabled = true;
+
+                        if (method === 'COD') {
+                            extraFields.innerHTML = `<label>Address:</label><textarea id="codAddress" style="width:100%;padding:6px;" rows="3" placeholder="Enter your address"></textarea>`;
+                            document.getElementById('codAddress').addEventListener('input', () => {
+                                payBtn.disabled = document.getElementById('codAddress').value.trim() === '';
+                            });
+                        } else if (method === 'UPI') {
+                            extraFields.innerHTML = `<label>UPI ID:</label><input type="text" id="upiField" placeholder="e.g. name@upi" style="width:100%;padding:6px;">`;
+                            document.getElementById('upiField').addEventListener('input', () => {
+                                const upi = document.getElementById('upiField').value.trim();
+                                payBtn.disabled = !/^[\w.-]+@[\w.-]+$/.test(upi);
+                            });
+                        } else if (method === 'Card') {
+                            extraFields.innerHTML = `
+        <label>Card Number:</label><input type="text" id="cardNumber" maxlength="16" style="width:100%;padding:6px;"><br>
+        <label>Expiry:</label><input type="month" id="cardExpiry" style="width:100%;padding:6px;">`;
+                            document.getElementById('cardNumber').addEventListener('input', validateCardFields);
+                            document.getElementById('cardExpiry').addEventListener('input', validateCardFields);
+                        }
+
+                        function validateCardFields() {
+                            const card = document.getElementById('cardNumber').value.trim();
+                            const expiry = document.getElementById('cardExpiry').value.trim();
+                            payBtn.disabled = !(card.length === 16 && /^\d{16}$/.test(card) && expiry);
+                        }
+                    }
+
+                    function submitPayment(e) {
+                        e.preventDefault();
+                        const method = document.getElementById('payMethod').value;
+                        const payBtn = document.getElementById('payNowBtn');
+                        if (payBtn.disabled) return;
+
+                        const embed = document.getElementById('cartPaymentEmbed');
+                        const form = document.getElementById('paymentSelectForm');
+                        form.style.display = 'none';
+
+                        let grandTotal = selectedIndexes.reduce((sum, i) => sum + (cart[i].price * cart[i].qty), 0);
+                        let finalTotal = grandTotal - appliedDiscount;
+
+                        const summary = document.createElement('div');
+                        summary.id = 'paymentSummary';
+                        summary.innerHTML = `<h3>Payment Summary</h3>
+                             <p><strong>Payment Method:</strong> ${method}</p>
+      <p><strong>Grand Total:</strong> ₹${grandTotal}</p>
+      <p><strong>Discount:</strong> ₹${appliedDiscount}</p>
+      <p><strong>Final Total:</strong> ₹${finalTotal}</p>
+      <p style="color:green;"><strong>Your order has been placed successfully!</strong></p> `;
+                        embed.querySelector('.modal-content').appendChild(summary);
+                        selectedIndexes = [];
+                        appliedDiscount = 0;
+                        updateCart();
+                    }
+                </script>
+
+                <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                <!-- Wishlist Icon  -->
+                <style>
+                    .wishlist-icon {
+                        position: relative;
+                        right: 5px;
+                        font-size: 1em;
+                        color: rgb(14, 13, 13);
+                        cursor: pointer;
+                    }
+
+                    .wishlist-count {
+                        background: red;
+                        color: white;
+                        border-radius: 50%;
+                        padding: 2px 4px;
+                        font-size: 0.5em;
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                    }
+
+                    .wishlist-dropdown {
+                        display: none;
+                        position: absolute;
+                        right: 0;
+                        top: 40px;
+                        background: #fff;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
+                        border-radius: 6px;
+                        min-width: 220px;
+                        z-index: 1003;
+                        padding: 12px;
+
+                        /* Scroll settings */
+                        max-height: 250px;
+                        /* You can adjust this */
+                        overflow-y: auto;
+                    }
+
+                    /* Optional: Style the scrollbar for a cleaner look */
+                    .wishlist-dropdown::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    .wishlist-dropdown::-webkit-scrollbar-thumb {
+                        background: #ccc;
+                        border-radius: 3px;
+                    }
+
+                    .wishlist-dropdown::-webkit-scrollbar-thumb:hover {
+                        background: #999;
+                    }
+
+
+                    .wishlist-dropdown.active {
+                        display: block !important;
+                    }
+
+                    .wishlist-dropdown .wishlist-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                    }
+
+                    .wishlist-dropdown .wishlist-item img {
+                        width: 40px;
+                        height: 40px;
+                        object-fit: cover;
+                        border-radius: 4px;
+                        margin-right: 10px;
+                    }
+
+                    .wishlist-dropdown .wishlist-item-title {
+                        flex: 1;
+                        color: black;
+                        font-size: 0.95em;
+                    }
+
+                    .wishlist-dropdown .wishlist-item-remove {
+                        background: none;
+                        border: none;
+                        color: black;
+                        cursor: pointer;
+                        font-size: 1.1em;
+                    }
+
+                    .wishlist-btn {
+                        position: absolute;
+                        bottom: 10px;
+                        right: 10px;
+                        background: none;
+                        border: none;
+                        cursor: pointer;
+                        font-size: 1.5em;
+                        color: white;
+                        /* White heart fill */
+                        -webkit-text-stroke: 1px red;
+                        /* Red border */
+                        transition: color 0.2s, -webkit-text-stroke 0.2s;
+                    }
+
+                    .wishlist-btn.active {
+                        color: red;
+                        /* Fill red when active */
+                        -webkit-text-stroke: 1px red;
+                        /* Keep border red */
+                    }
+                </style>
+                <span class="wishlist-icon" id="wishlistIcon" tabindex="0" aria-label="Wishlist"
+                    onclick="toggleWishlistDropdown()"
+                    style="font-size:1.5em; color:red; margin-left:10px; cursor:pointer;">
+                    &#10084;
+                    <span class="wishlist-count" id="wishlistCount">0</span>
+                    <div class="wishlist-dropdown" id="wishlistDropdown"
+                        style="display:none; position:relative; right:0; top:40px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.13); border-radius:6px; min-width:220px; z-index:1003; padding:12px;">
+                        <div id="wishlistItems"></div>
+                    </div>
+                </span>
+        </div>
+    </div>
+    </div>
+    <script>
+        // Wishlist Logic
+        let wishlist = [];
+        function toggleWishlist(btn) {
+            btn.classList.toggle('active');
+            const card = btn.closest('.product-card');
+            const title = card.querySelector('.product-title').innerText;
+            const price = parseInt(card.querySelector('.product-price').innerText.replace(/[^0-9]/g, ''));
+            const img = card.querySelector('img').src;
+            let found = wishlist.find(item => item.title === title);
+            if (btn.classList.contains('active')) {
+                if (!found) wishlist.push({ title, price, img });
+            } else {
+                wishlist = wishlist.filter(item => item.title !== title);
+            }
+            updateWishlist();
+        }
+        function updateWishlist() {
+            document.getElementById('wishlistCount').innerText = wishlist.length;
+            let html = '';
+            wishlist.forEach((item, i) => {
+                html += `<div class='wishlist-item'><img src='${item.img}' alt='${item.title}'><span class='wishlist-item-title'>${item.title}</span><button class='wishlist-item-remove' onclick='removeWishlistItem(${i})'>&times;</button></div>`;
+            });
+            document.getElementById('wishlistItems').innerHTML = html || '<div style="text-align:center;">Wishlist is empty</div>';
+        }
+        function removeWishlistItem(i) {
+            wishlist.splice(i, 1); updateWishlist();
+            // Also un-heart the product card
+            document.querySelectorAll('.product-card').forEach(card => {
+                if (card.querySelector('.product-title').innerText === wishlist[i]?.title) {
+                    card.querySelector('.wishlist-btn').classList.remove('active');
+                }
+            });
+        }
+        function toggleWishlistDropdown() {
+            document.getElementById('wishlistDropdown').classList.toggle('active');
+        }
+        document.addEventListener('click', function (e) {
+            if (!document.getElementById('wishlistIcon').contains(e.target)) {
+                document.getElementById('wishlistDropdown').classList.remove('active');
+            }
+        });
+    </script>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Carousel for featured products -->
+    <style>
+        .product-section {
+            padding: 30px 0;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 220px);
+            /* 6 items per row */
+            gap: 24px;
+            justify-content: center;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 2px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+            width: 220px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: box-shadow 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .product-title {
+            font-size: 16px;
+            margin-top: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .product-price {
+            color: #404be9;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .product-rating {
+            color: #f58220;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin: 30px 0 10px 0;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s;
+        }
+
+        .carousel-slide {
+            min-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .carousel-slide img {
+            width: 1464px;
+            height: 589px;
+            max-width: 100vw;
+            max-height: 60vw;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 400px) {
+            .carousel-slide img {
+                height: 90vw;
+            }
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            border: none;
+            font-size: 2em;
+            cursor: pointer;
+            z-index: 2;
+            padding: 0 10px;
+        }
+
+        .carousel-btn.left {
+            left: 10px;
+        }
+
+        .carousel-btn.right {
+            right: 10px;
+        }
+
+        .filter-bar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 20px 0 10px 0;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-bar select,
+        .filter-bar input[type="text"] {
+            padding: 4px 8px;
+            font-size: 13px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            width: 120px;
+            height: 30px;
+            box-sizing: border-box;
+        }
+
+        a:focus,
+        button:focus,
+        input:focus,
+        select:focus {
+            outline: 2px solid #b640e9;
+            outline-offset: 2px;
+        }
+    </style>
+    <div class="carousel" aria-label="Featured Products">
+        <button class="carousel-btn left" onclick="moveCarousel(-1)" aria-label="Previous Slide">&#8592;</button>
+        <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide"><img src="display image 1.jpg" alt="Featured 1"></div>
+            <div class="carousel-slide"><img src="display image 1 mens.jpg" alt="Featured 2"></div>
+            <div class="carousel-slide"><img src="display image 2 womens.jpg" alt="Featured 3"></div>
+            <div class="carousel-slide"><img src="display image 3 kids.jpg" alt="Featured 4"></div>
+        </div>
+        <button class="carousel-btn right" onclick="moveCarousel(1)" aria-label="Next Slide">&#8594;</button>
+    </div>
+    <!-- Filter bar -->
+    <div class="filter-bar">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="kids">Kids</option>
+            <option value="unisex">Unisex</option>
+        </select>
+        <select id="priceFilter">
+            <option value="all">All Prices</option>
+            <option value="0-499">Under ₹500</option>
+            <option value="500-999">₹500 - ₹999</option>
+            <option value="1000-1999">₹1000 - ₹1999</option>
+        </select>
+        <input type="text" id="filterSearch" placeholder="Filter by name...">
+    </div>
+    <!-- Product grid -->
+    <section class="product-section">
+        <div class="product-grid">
+
+            <!-- 24 Products (6 per row, 4 rows) -->
+
+            <!-- Row 1 -->
+            <div class="product-card" data-category="men" data-price="299" data-name="T-Shirt">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens t shirt image.jpg" alt="Men's T-Shirt">
+                <div class="product-title">Men's T-Shirt</div>
+                <div class="product-price">₹299</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (729)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="men" data-price="399" data-name="Polo T-Shirt">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens polo t shirt .jpg" alt="Polo T-Shirt">
+                <div class="product-title">Polo T-Shirt</div>
+                <div class="product-price">₹399</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (1312)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="men" data-price="499" data-name="Shirt">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens shirt image .jpg" alt="Shirt">
+                <div class="product-title">Shirt</div>
+                <div class="product-price">₹499</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (925)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="men" data-price="699" data-name="Jeans">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens jeans image.jpg" alt="Men's Jeans">
+                <div class="product-title">Men's Jeans</div>
+                <div class="product-price">₹699</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (120)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="men" data-price="1499" data-name="Jacket">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens jacket.jpg" alt="Men's Jacket">
+                <div class="product-title">Men's Jacket</div>
+                <div class="product-price">₹1499</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (1593)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="men" data-price="1199" data-name="Shoes">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="mens shoes.jpg" alt="Men's Shoes">
+                <div class="product-title">Men's Shoes</div>
+                <div class="product-price">₹1199</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (120)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="product-card" data-category="women" data-price="699" data-name="Summer Dress">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="summer dress.jpg" alt="Summer Dress">
+                <div class="product-title">Summer Dress</div>
+                <div class="product-price">₹699</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (583)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-price="499" data-name="Crop Tops">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="crop tops.jpg" alt="Crop Tops">
+                <div class="product-title">Crop Tops</div>
+                <div class="product-price">₹499</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (947)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-price="599" data-name="Ethnic Kurtis">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="ethnic kurtis.jpg" alt="Ethnic Kurtis">
+                <div class="product-title">Ethnic Kurtis</div>
+                <div class="product-price">₹599</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (612)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-price="799" data-name="High Waist Jeans">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="high waist jeans.jpg" alt="High Waist Jeans">
+                <div class="product-title">High Waist Jeans</div>
+                <div class="product-price">₹799</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (728)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-price="1299" data-name="women’s Jackets">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="womens jacket.jpg" alt="Women's Jacket">
+                <div class="product-title">Women's Jacket</div>
+                <div class="product-price">₹1299</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (851)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-price="1499" data-name="Shoes">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="women shoes.jpg" alt="Shoes">
+                <div class="product-title">Shoes</div>
+                <div class="product-price">₹1499</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (971)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="product-card" data-category="kids" data-price="299" data-name="Kids Cartoon Print T-Shirt">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="kids t shirt.jpg" alt="Kids Cartoon T-Shirt">
+                <div class="product-title">Kids Cartoon Print T-Shirt</div>
+                <div class="product-price">₹299</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (736)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="kids" data-price="699" data-name="Cargo Pants">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="cargo pants.jpg" alt="Cargo Pants">
+                <div class="product-title">Cargo Pants</div>
+                <div class="product-price">₹399</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (805)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="kids" data-price="299" data-name="TOPS">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="tops.jpg" alt="TOPS">
+                <div class="product-title">TOPS</div>
+                <div class="product-price">₹299</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (591)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="kids" data-price="499" data-name="Floral Frock's">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="floral frock.jpg" alt="Floral Frock">
+                <div class="product-title">Floral Frock</div>
+                <div class="product-price">₹499</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (964)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="kids" data-price="399" data-name="Kids Denim Shorts">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="denim shorts.jpg" alt="Kids Denim Shorts">
+                <div class="product-title">Kids Denim Shorts</div>
+                <div class="product-price">₹399</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (527)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="kids" data-price="699" data-name="Kids Shoes">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="kids shoes.jpg" alt="Kids Shoes">
+                <div class="product-title">Kids' Shoes</div>
+                <div class="product-price">₹699</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9734;&#9734; (964)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="product-card" data-category="unisex" data-price="599" data-name="Oversize T-Shirt">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="oversize t shirt.jpg" alt="Oversize T-Shirt">
+                <div class="product-title">Oversize T-Shirt</div>
+                <div class="product-price">₹599</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (572)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="unisex" data-price="399" data-name="Caps">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="caps.jpg" alt="Caps">
+                <div class="product-title">Caps</div>
+                <div class="product-price">₹399</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (689)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="unisex" data-price="799" data-name="Gym Wears">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="gym wears.jpg" alt="Gym Wears">
+                <div class="product-title">Gym Wears</div>
+                <div class="product-price">₹799</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (356)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="unisex" data-price="899" data-name="Co-ord sets">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="coord sets.jpg" alt="Co-ord sets">
+                <div class="product-title">Co-ord sets</div>
+                <div class="product-price">₹899</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (564)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card" data-category="unisex" data-price="599" data-name="Joggers">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="joggers.jpg" alt="Joggers">
+                <div class="product-title">Joggers</div>
+                <div class="product-price">₹599</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (473)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="unisex" data-price="1299" data-name="Bomber Jackets">
+                <button class="wishlist-btn" aria-label="Add to wishlist"
+                    onclick="toggleWishlist(this)">&#10084;</button>
+                <img src="denim jackets.jpg" alt="Bomber Jackets">
+                <div class="product-title">Bomber Jackets</div>
+                <div class="product-price">₹1299</div>
+                <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (865)</div>
+                <button class="add-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        // Filtering Logic
+        // =====================
+        document.getElementById('categoryFilter').addEventListener('change', filterProducts);
+        document.getElementById('priceFilter').addEventListener('change', filterProducts);
+        document.getElementById('filterSearch').addEventListener('input', filterProducts);
+        function filterProducts() {
+            const cat = document.getElementById('categoryFilter').value;
+            const price = document.getElementById('priceFilter').value;
+            const search = document.getElementById('filterSearch').value.toLowerCase();
+            document.querySelectorAll('.product-card').forEach(card => {
+                let show = true;
+                if (cat !== 'all' && card.dataset.category !== cat) show = false;
+                if (price !== 'all') {
+                    const [min, max] = price.split('-');
+                    const p = parseInt(card.dataset.price);
+                    if (p < parseInt(min) || (max && p > parseInt(max))) show = false;
+                }
+                if (search && !card.dataset.name.toLowerCase().includes(search)) show = false;
+                card.style.display = show ? '' : 'none';
+            });
+        }
+        // Carousel Logic
+        let carouselIndex = 0;
+        function moveCarousel(dir) {
+            const track = document.getElementById('carouselTrack');
+            const slides = track.children.length;
+            carouselIndex = (carouselIndex + dir + slides) % slides;
+            track.style.transform = `translateX(-${carouselIndex * 100}vw)`;
+        }
+        setInterval(function () { moveCarousel(1); }, 4000);
+    </script>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Login/Register Modal -->
+    <div class="modal" id="authModal" aria-modal="true" role="dialog">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('authModal')">&times;</span>
+            <h3 id="authTitle">Login</h3>
+            <form id="authForm" onsubmit="submitAuth(event)">
+                <input type="text" id="authUser" placeholder="Username or Email" required
+                    style="width:100%;margin-bottom:10px;">
+                <input type="password" id="authPass" placeholder="Password" required
+                    style="width:100%;margin-bottom:10px;">
+                <button type="submit"
+                    style="width:100%;background:#b640e9;color:#fff;padding:8px 0;border:none;border-radius:4px;">Login</button>
+            </form>
+            <div style="margin-top:10px;text-align:center;">
+                <a href="#" onclick="switchAuth('register');return false;">New user? Register</a> |
+                <a href="#" onclick="switchAuth('login');return false;">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <img src="WEBSITE IMAGE 1.jpg" width="100%" alt="DELHI MART" style="margin-top: 20px;">
+    <div class="image-row">
+        <img src="WEBSITE IMAGE 2.jpg" width="49.5%" alt="DELHI MART" style="margin-top: 20px; margin-left: 10px;">
+        <img src="WEBSITE IMAGE 3.jpg" width="49.5%" alt="DELHI MART" style="margin-top: 20px; margin-right: 10px;">
+    </div><br>
+    <video width="100%" autoplay muted style="padding: 20px;">
+        <source src="website sale video.mp4" type="video/mp4">
+    </video>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <hr>
+    <p><br>Welcome to Delhi Mart, your one-stop destination for everything trendy, affordable, and high-quality.
+        Whether you're searching for the latest fashion, daily essentials, or unique lifestyle products, we bring
+        you a
+        wide selection right at your fingertips. Our user-friendly interface, secure payment options, and
+        lightning-fast
+        delivery ensure a smooth and satisfying shopping experience every time. At Delhi Mart, customer satisfaction
+        is
+        our top priority, and we strive to offer unmatched value through exciting deals, fresh collections, and
+        round-the-clock support. Shop with confidence, discover new favorites, and enjoy a smarter way to shop –
+        only at
+        Delhi Mart.</p>
+    <p>
+        <b>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</b><br>
+        Be it clothing, footwear or accessories, Delhi Mart offers you the ideal combination of fashion and
+        functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types
+        of outfits that
+        you can purchase for different occasions.
+    <ol>
+        <li><b>Smart men’s clothing-</b></li> At Delhi Mart you will find myriad options in smart formal shirts and
+        trousers,
+        cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts.
+        Create the
+        back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane
+        style,
+        checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart
+        casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in
+        water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep
+        you
+        confident in any outfit.
+        <li><b>Trendy women’s clothing-</b></li>Online shopping for women at Delhi Mart is a mood-elevating
+        experience. Look
+        hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a
+        little black dress,
+        or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of
+        nautical
+        fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and
+        peplum
+        tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the
+        perfect
+        fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to
+        make
+        an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make
+        comfortable options for regular wear.
+        <li><b>Fashionable footwear-</b></li>While clothes maketh the man, the type of footwear you wear reflects
+        your
+        personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and
+        loafers. Make a power
+        statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and
+        women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into
+        the
+        casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable
+        footwear
+        for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and
+        style
+        with embellished and metallic flats.
+        <li><b>Stylish accessories-</b></li>Delhi Mart is one of the best online shopping sites for classy
+        accessories that
+        perfectly complement your outfits. You can select smart analogue or digital watches and match them up with
+        belts and ties.
+        Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal
+        jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options.
+        <li><b>Fun and frolic-</b></li>Online shopping for kids at Myntra is a complete joy. Your little princess is
+        going to
+        love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking
+        up sports
+        shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our lineup of
+        toys
+        with which you can create memories to cherish.
+        <li><b>Beauty begins here-</b></li>You can also refresh, rejuvenate and reveal beautiful skin with personal
+        care,
+        beauty and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other
+        ayurvedic products
+        are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your
+        scalp
+        clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural
+        beauty.
+    </ol>
+    Delhi Mart is one of the best online shopping sites in India which could help transform your living spaces
+    completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to
+    impress your guest. Wall decor, clocks, photo frames and artificial plants are sure to breathe life into any
+    corner of your home.
+    </p>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Support,Contact, Modal ,Auth, Support, Newsletter, Policy-->
+    <hr>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90vw;
+            max-width: 400px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.18);
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            color: #404be9;
+            cursor: pointer;
+        }
+
+        button.primary {
+            width: 100%;
+            background: #404be9;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: auto;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-content {
+            background: #fff;
+            margin: 8% auto;
+            padding: 30px 24px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.18);
+            position: relative;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 10px;
+            right: 16px;
+            font-size: 1.5em;
+            color: black;
+            cursor: pointer;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 8px;
+            margin-top: 18px;
+        }
+
+        .newsletter-form input[type="email"] {
+            flex: 1;
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            font-size: 1em;
+        }
+
+        .newsletter-form button {
+            padding: 6px 12px;
+            border: 1px solid #404be9;
+            border-left: none;
+            border-radius: 0 4px 4px 0;
+            background: #404be9;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        .footer-links a {
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #fa0404;
+        }
+    </style>
+    <div class="modal" id="supportModal" aria-modal="true" role="dialog">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('supportModal')">&times;</span>
+            <h3>Contact Support</h3>
+            <form onsubmit="submitSupport(event)">
+                <input type="text" placeholder="Your Name" required style="width:100%;margin-bottom:10px;">
+                <input type="email" placeholder="Your Email" required style="width:100%;margin-bottom:10px;">
+                <textarea placeholder="Your Message" required style="width:100%;margin-bottom:10px;"></textarea>
+                <button type="submit"
+                    style="width:100%;background:#0a0a0a;color:#fff;padding:8px 0;border:none;border-radius:4px;">Send</button>
+            </form>
+        </div>
+    </div>
+    <form class="newsletter-form" onsubmit="submitNewsletter(event)">
+        <input type="email" placeholder="Subscribe to our newsletter" required>
+        <button type="submit">Subscribe</button>
+    </form>
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="openPolicy('about');return false;">About Us</a> |
+            <a href="#" onclick="openPolicy('privacy');return false;">Privacy Policy</a> |
+            <a href="#" onclick="openPolicy('terms');return false;">Terms & Conditions</a> |
+            <a href="#" onclick="openPolicy('return');return false;">Return Policy</a>
+        </div>
+        <p>&copy; 2023 Delhi Mart. All rights reserved.</p>
+    </footer>
+    <div class="footer-links" style="margin-top:18px;">
+    </div>
+    <div id="policyModal" class="modal" aria-modal="true" role="dialog">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('policyModal')">&times;</span>
+            <div id="policyContent"></div>
+        </div>
+    </div>
+    <p>In case of any concern, <a href="https://www.instagram.com/sudhanshu__joshi/" target="_blank">Contact Us.</a>
+        www.delhimart.com. A Start up company of India.</p>
+
+    </footer>
+    <script>
+        // Modal, Auth, Support, Newsletter, Policy Logic
+        function openAuth() {
+            document.getElementById('authModal').style.display = 'block';
+            document.getElementById('authTitle').innerText = 'Login';
+        }
+        function switchAuth(type) {
+            document.getElementById('authTitle').innerText = (type === 'register') ? 'Register' : 'Login';
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+        function submitAuth(e) {
+            e.preventDefault();
+            closeModal('authModal');
+            alert('Logged in (demo only)');
+        }
+        function openSupport() {
+            document.getElementById('supportModal').style.display = 'block';
+        }
+        function submitSupport(e) {
+            e.preventDefault();
+            closeModal('supportModal');
+            alert('Message sent! (demo only)');
+        }
+        function submitNewsletter(e) {
+            e.preventDefault();
+            alert('Subscribed! (demo only)');
+        }
+        function openPolicy(type) {
+            const content = {
+                about: '<h3>About Us</h3><p>Delhi Mart is your one-stop shop for fashion, electronics, and more. We are committed to quality and customer satisfaction.</p>',
+                privacy: '<h3>Privacy Policy</h3><p>Your privacy is important to us. We do not share your data with third parties.</p>',
+                terms: '<h3>Terms & Conditions</h3><p>By using our site, you agree to our terms and conditions.</p>',
+                return: '<h3>Return Policy</h3><p>Returns are accepted within 7 days of delivery. See our full policy for details.</p>'
+            };
+            document.getElementById('policyContent').innerHTML = content[type] || '';
+            document.getElementById('policyModal').style.display = 'block';
+        }
+        // Accessibility: Close Modals with Escape
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+            }
+        });
+    </script>
+</body>
+
+</html>
